@@ -1,0 +1,30 @@
+{
+  "name": "t1-bases2",
+  "version": "1.0.0",
+  "description": "Desarrollo de una API para comunicarse con una base de datos en SQL Server.",
+  "homepage": "https://github.com/duron03/t1-bases2#readme",
+  "bugs": {
+    "url": "https://github.com/duron03/t1-bases2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duron03/t1-bases2.git"
+  },
+  "license": "ISC",
+  "author": "Noé López Durón",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "morgan": "^1.12.0",
+    "mssql": "^12.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
